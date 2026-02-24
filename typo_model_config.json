@@ -1,0 +1,10 @@
+{
+  "base_url": "https://api.groq.com/openai/v1",
+  "key_prefix": "gsk_",
+  "key_env": "GROQ_API_KEY",
+  "models": [
+    {"id": "llama-3.3-70b-versatile",                         "daily_limit": 1000,  "rpm": 30},
+    {"id": "llama-3.1-8b-instant",                            "daily_limit": 14400, "rpm": 30},
+    {"id": "meta-llama/llama-4-scout-17b-16e-instruct",       "daily_limit": 1000,  "rpm": 30}
+  ]
+}
